@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
-    "build": "rollup -c",
+    "build": "rollup -c && zet pack",
     "dev": "rollup -c -w",
     "start": "sirv app --no-clear",
     "start-sandbox": "node server/index.js"
