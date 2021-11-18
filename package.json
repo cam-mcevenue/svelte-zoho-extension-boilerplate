@@ -5,7 +5,8 @@
   "scripts": {
     "build": "rollup -c",
     "dev": "rollup -c -w",
-    "start": "sirv app --no-clear"
+    "start": "sirv app --no-clear",
+    "start-sandbox": "node server/index.js"
   },
   "devDependencies": {
     "@rollup/plugin-commonjs": "^17.0.0",
