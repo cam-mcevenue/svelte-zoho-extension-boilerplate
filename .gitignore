@@ -1,4 +1,6 @@
 /node_modules/
 /app/build/
 
+*.pem
+
 .DS_Store
